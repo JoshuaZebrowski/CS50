@@ -4,7 +4,7 @@
 
 //TO FIND YEAR
 int main(void){
-    printf("Hello, \" world\n");
+    printf("Hello, world\n");
     long seconds = time(NULL);
     int year = 1970; //Epoch year
     long hours = 0; 
