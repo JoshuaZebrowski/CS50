@@ -6,7 +6,6 @@
 
 
 #define GREEN   "\e[38;2;255;255;255;1m\e[48;2;106;170;100;1m"
-#define RED     "\e[38;2;255;255;255;1m\e[48;2;220;20;60;1m"
 #define RESET   "\e[0;39m"
 
 int main(void)
