@@ -10,7 +10,8 @@ int main(void){
     long hours = 0; 
     long days = seconds / 86400;
 
-    while ((days >= 365) && (year % 4 !=0) || (days >= 366) && (year % 4 == 0) ){
+    while ( ((days >= 365) && (year % 4 !=0)) || ((days >= 366) && (year % 4 == 0)) )
+    {
         if (year % 4 == 0){
             year++;
             hours = hours + 8784;
